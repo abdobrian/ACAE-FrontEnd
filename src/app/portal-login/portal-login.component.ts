@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortalLoginComponent implements OnInit {
 
+  loginBackground = 'assets/public/images/ACA-Virtual-Platform-Login.jpg';
   constructor() { }
 
   ngOnInit() {
