@@ -1,5 +1,5 @@
-@import "~bootstrap/dist/css/bootstrap.css";
-
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
 
 
 
@@ -40,7 +40,7 @@
   }
 @media (min-width: 769px) {
   .divHeight{
-    height: 50%;
+    height: 50vh;
   }
 }
 @media (max-width: 768px) {
@@ -48,4 +48,18 @@
     height: 100%;
   }
 }
+.inputstyle{
 
+}
+.inputstyle::-webkit-input-placeholder {
+  font-style: italic;
+}
+inputstyle:-moz-placeholder {
+  font-style: italic;
+}
+inputstyle::-moz-placeholder {
+  font-style: italic;
+}
+inputstyle:-ms-input-placeholder {
+  font-style: italic;
+}
