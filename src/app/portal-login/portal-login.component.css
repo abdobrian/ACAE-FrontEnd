@@ -1,30 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
-.RoundedDiv{
-  border-radius: 10px;
-  position: relative;
 
-}
-#login{
-  width: 75%;
-  height: 150px;
-  left: 12.5%;
 
-}
 
-#instructions{
-  width: 90%;
-  height: 150px;
-  left: 5%;
 
-}
-#InstructionTemplate{
-  border: 1px solid #1f5283;
-  border-radius: 7px;
-
-  padding: 25px;
-
-}
 @media (max-width:767px) {
 
   .border
@@ -44,6 +23,7 @@
       height: 50px;
 
     }
+
   }
 
   @media (min-width: 769px) {
@@ -56,4 +36,16 @@
       height: 40px;
 
     }
+
   }
+@media (min-width: 769px) {
+  .divHeight{
+    height: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .divHeight{
+    height: 100%;
+  }
+}
+
